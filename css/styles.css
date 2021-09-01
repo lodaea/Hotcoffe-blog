@@ -7,8 +7,8 @@ body{
     margin: auto;
     width: 80%;  
 }
-.coffee > img{
-    margin-top: 20px;
+#coffee{
+    position: relative; top:-10px; left: 5px;
 }
 
 /*
@@ -105,16 +105,12 @@ grid
 }
 .second{
     border: 1px solid rgb(238, 238, 238);
-    /*display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .third{
     margin: 5px;
     border: gainsboro solid 1px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
 }
 .fourth{
     background-color: #F7FAFC;
